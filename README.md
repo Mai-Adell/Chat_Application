@@ -5,28 +5,28 @@
 <p>It's my first datastructure project where we make a consule apllication that simulates whatsapp application in java language. We used many datastructures as queue, binary search tree , stack and Map.The application  keep track of these entities.
 
 User : <br>
-the user has (UserID ,mobile number , password , First name, Last name ,ChatRooms, ChatRoomInfo ,Contacts which are other users. , Stories , User Profile description )
+the user has (UserID ,mobile number , password , First name, Last name ,ChatRooms, ChatRoomInfo ,Contacts which are other users. , Stories , User Profile description )<br>
 ChatRoom :<br>
 the ChatRoom has (ChatRoomID, List of Users (2 in case of one to one
 chat and 2 or more in case of group chat ), List of Messages ,ChatRoom Type (one to
-one chat or group chat ) ) 3- ChatRoomInfo : the ChatRoomInfo has (UserID,
-ChatRoomID , Last seen (Date that corresponds to the last date the user opened the
-ChatRoom))
+one chat or group chat ) )<br>
+ChatRoomInfo :<br>
+the ChatRoomInfo has (UserID,
+ChatRoomID , Last seen (Date that corresponds to the last date the user opened the ChatRoom))<br>
 Message: <br>
-The Message entity has (MessageId , UserID (who wrote the message),
-Text, Status).
+The Message entity has (MessageId , UserID (who wrote the message),Text, Status).<br>
 Status :<br>
 The status has ( Date of message sent , time of message sent , status type
 (which is either seen or unseen (when the message is sent it is initially unseen until
 the another user opens the chat room , In case of group chat it is seen if only all the
-other users opened the chat room)).
+other users opened the chat room)).<br>
 Story : <br>
 story entity has (User ID , Published Story time , Story photo (This attribute
-is optional) , Story text).
-User Profile Description 
+is optional) , Story text).<br>
+User Profile Description :<br>
 (User ID, Personal photo if exists , About description,
-Visibility (Boolean to make your information visible to anyone or only your contacts )
-)
+Visibility (Boolean to make your information visible to anyone or only your contacts )<br>
+  
 Constraints:<br>
 ● Each user story should be disappeared to all his contacts after 24 hours from
 the time it was published. 
