@@ -2,7 +2,7 @@
 
 ## Consule java apllication that simulates whatsapp application .
 
-<p>It's my first datastructure project where we make a consule apllication that simulates whatsapp application in java language. We used many datastructures as queue, binary search tree , stack and Map.The application  keep track of these entities.
+<p>It's my first datastructure project where we make a console application that simulates WhatsApp application in java language. We used many datastructures as queue, binary search tree , stack and Map.The application  keep track of these entities.
 
 #### User :
 the user has (UserID ,mobile number , password , First name, Last name ,ChatRooms, ChatRoomInfo ,Contacts which are other users. , Stories , User Profile description )<br>
